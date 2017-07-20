@@ -21,50 +21,94 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="EGh-yH-HpS">
-                                <rect key="frame" x="145" y="314" width="84" height="210"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="d7q-uQ-9Ua">
+                                <rect key="frame" x="142" y="133.5" width="91" height="400.5"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLq-gQ-bEz" userLabel="PersonButton">
-                                        <rect key="frame" x="0.0" y="0.0" width="84" height="30"/>
-                                        <state key="normal" title="Person"/>
-                                        <connections>
-                                            <segue destination="sDj-kU-Igg" kind="show" id="wwy-Vc-dtg"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uB-xO-4Jo" userLabel="AllTrainingsButton">
-                                        <rect key="frame" x="0.0" y="60" width="84" height="30"/>
-                                        <state key="normal" title="All Trainings"/>
-                                        <connections>
-                                            <segue destination="OQS-Qu-mam" kind="show" id="Str-3r-AiZ"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Qs-Sq-a0l" userLabel="PlansButton">
-                                        <rect key="frame" x="0.0" y="120" width="84" height="30"/>
-                                        <state key="normal" title="Plans"/>
-                                        <connections>
-                                            <segue destination="uc5-6Z-7we" kind="show" id="xPT-59-1Qf"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4gx-2o-aYt" userLabel="SocialButton">
-                                        <rect key="frame" x="0.0" y="180" width="84" height="30"/>
-                                        <state key="normal" title="Social"/>
-                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1S1-Q5-Cpp">
+                                        <rect key="frame" x="0.0" y="0.0" width="91" height="110.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myz-Kr-iN7">
+                                                <rect key="frame" x="0.0" y="0.0" width="91" height="90"/>
+                                                <state key="normal" image="Fast"/>
+                                            </button>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="bD7-Mn-d8v">
+                                                <rect key="frame" x="0.0" y="90" width="91" height="20.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tony" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nuf-aX-8mc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="37" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lvl. 10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KTy-xO-60l">
+                                                        <rect key="frame" x="47" y="0.0" width="44" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" cyan="0.0" magenta="0.21055772569444445" yellow="0.86391782760620117" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                                        <color key="highlightedColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="shadowColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                                    </label>
+                                                </subviews>
+                                                <rect key="contentStretch" x="0.050000000000000003" y="0.0" width="1" height="1"/>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="EGh-yH-HpS">
+                                        <rect key="frame" x="14.5" y="190.5" width="62" height="210"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLq-gQ-bEz" userLabel="PersonButton">
+                                                <rect key="frame" x="0.0" y="0.0" width="62" height="30"/>
+                                                <state key="normal" title="个人主页">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="sDj-kU-Igg" kind="show" id="wwy-Vc-dtg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uB-xO-4Jo" userLabel="AllTrainingsButton">
+                                                <rect key="frame" x="0.0" y="60" width="62" height="30"/>
+                                                <state key="normal" title="所有训练">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="OQS-Qu-mam" kind="show" id="Str-3r-AiZ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Qs-Sq-a0l" userLabel="PlansButton">
+                                                <rect key="frame" x="0.0" y="120" width="62" height="30"/>
+                                                <state key="normal" title="训练计划">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="uc5-6Z-7we" kind="show" id="xPT-59-1Qf"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4gx-2o-aYt" userLabel="SocialButton">
+                                                <rect key="frame" x="0.0" y="180" width="62" height="30"/>
+                                                <state key="normal" title="社区动态">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="lTx-i6-wr8" kind="show" id="JA8-jC-RWs"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myz-Kr-iN7">
-                                <rect key="frame" x="145" y="163" width="84" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.24313725489999999" green="0.52549019610000003" blue="0.78039215689999997" alpha="0.41162778249999998" colorSpace="deviceRGB"/>
+                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="d7q-uQ-9Ua" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8vG-Ek-ew9"/>
+                            <constraint firstItem="d7q-uQ-9Ua" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="f7h-5g-CtZ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="g7p-Wu-ywn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="500" y="630.13493253373315"/>
+            <point key="canvasLocation" x="920.79999999999995" y="725.48725637181417"/>
         </scene>
         <!--Personal View Controller-->
         <scene sceneID="peE-84-Zye">
@@ -82,7 +126,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HVe-b7-qeE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1111" y="-513"/>
+            <point key="canvasLocation" x="2036" y="-181"/>
         </scene>
         <!--Trainings View Controller-->
         <scene sceneID="C5h-ol-04C">
@@ -131,12 +175,12 @@
                     <view key="view" contentMode="scaleToFill" id="eTt-3D-EEk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7im-MI-7qQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1898" y="1462"/>
+            <point key="canvasLocation" x="2350" y="1240"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="baT-wn-adl">
@@ -157,4 +201,7 @@
             <point key="canvasLocation" x="-428" y="615"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Fast" width="90" height="90"/>
+    </resources>
 </document>

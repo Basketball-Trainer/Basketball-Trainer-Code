@@ -15,6 +15,7 @@
 		243D44381F19031500C0509D /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243D44371F19031500C0509D /* PersonalViewController.swift */; };
 		243D443A1F1903A500C0509D /* TrainingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243D44391F1903A500C0509D /* TrainingsViewController.swift */; };
 		243D443C1F1905B300C0509D /* PlansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243D443B1F1905B300C0509D /* PlansViewController.swift */; };
+		243D44401F19DD4700C0509D /* Personalphotobutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243D443F1F19DD4700C0509D /* Personalphotobutton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		243D44371F19031500C0509D /* PersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
 		243D44391F1903A500C0509D /* TrainingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingsViewController.swift; sourceTree = "<group>"; };
 		243D443B1F1905B300C0509D /* PlansViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlansViewController.swift; sourceTree = "<group>"; };
+		243D443F1F19DD4700C0509D /* Personalphotobutton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Personalphotobutton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				243D44371F19031500C0509D /* PersonalViewController.swift */,
 				243D44391F1903A500C0509D /* TrainingsViewController.swift */,
 				243D443B1F1905B300C0509D /* PlansViewController.swift */,
+				243D443F1F19DD4700C0509D /* Personalphotobutton.swift */,
 			);
 			path = "Basketball Trainer";
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				243D44401F19DD4700C0509D /* Personalphotobutton.swift in Sources */,
 				243D44241F19011600C0509D /* ViewController.swift in Sources */,
 				243D44381F19031500C0509D /* PersonalViewController.swift in Sources */,
 				243D443A1F1903A500C0509D /* TrainingsViewController.swift in Sources */,
@@ -316,6 +320,7 @@
 				243D44321F19011600C0509D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
